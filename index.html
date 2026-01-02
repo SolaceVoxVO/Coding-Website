@@ -34,41 +34,51 @@
    <main>
     <section id="about">
     <h2>About</h2>
-    <div>
-        <p>
+    <div class="row">
+        
+    <div class="section__description">
+        <div class="section__description--wrapper">
+            
+        <p class="section__description--para">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
             Optio tenetur aperiam eius exercitationem quasi ipsa similique eveniet assumenda porro maxime? 
             Molestiae omnis quis enim totam voluptatum unde ipsam dolore incidunt.
         </p>
-        <p>
+        <p class="section__description--para">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Quisquam, quidem. Quisquam, quidem. 
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Quisquam, quidem. Quisquam, quidem.
         </p>
     </div>
-    <figure>
+    <figure class="about__img--wrapper">
         <img src="HTML Practise Assets/about.jpg" alt="About Image">
     </figure>
+    </div>
+    </div>
     </section>
 
     <section id="discord">
         <h2>Discord</h2>
+        <div class="row">
+        <div class="section__description">
         <figure>
             <img src="HTML Practise Assets/discord.png" alt="Discord Image">
         </figure>
-        <div>
-            <p>
+        <div class="section__description">
+            <p class="section__description--para">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Quisquam, quidem. Quisquam, quidem. 
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Quisquam, quidem. Quisquam, quidem.
             </p>
-            <p>
+            <p class="section__description--para">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                 Optio tenetur aperiam eius exercitationem quasi ipsa similique eveniet assumenda porro maxime? 
                 Molestiae omnis quis enim totam voluptatum unde ipsam dolore incidunt.
             </p>
+        </div>
+        </div>
         </div>
     </section>
 
@@ -78,19 +88,19 @@
         <label for="email">Email:</label>
         <input type ="text" placeholder="jane@example.com">
         <label for="message">Message:</label>
-        <textarea placeholder="Your message here"></textarea>
-        <button type="submit">Send</button>
+        <textarea placeholder="Cool Website! Let's Connect!!!"></textarea>
+        <button type="submit">Contact Us!</button>
       </form> 
     </section>
    </main>
 
    <footer>
-    <img src="HTML Practise Assets/FES.svg" alt="FES Logo">
-    <div>
-        <a href="#about">About</a>
-        <a href="#discord">Discord</a>
-        <a href="#contact">Contact</a>
-        <a href="">Courses</a>
+    <img class="footer__logo" src="HTML Practise Assets/FES.svg" alt="FES Logo">
+    <div class="footer__links">
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#discord">Discord</a>
+        <a class="footer__link" href="#contact">Contact</a>
+        <a class="footer__link" href="">Courses</a>
     </div>
     <p>© 2024 Frontend Simplified</p>
    </footer>
